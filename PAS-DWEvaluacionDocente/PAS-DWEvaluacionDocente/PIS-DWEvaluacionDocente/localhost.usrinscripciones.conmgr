@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost USRINSCRIPCIONES"
+  DTS:DTSID="{88E5AE9B-BB59-48D9-80AA-39C37A44AF06}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;User ID=USRINSCRIPCIONES;Provider=OraOLEDB.Oracle.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlGNIBEoIDUaJ77uMMmZGUQAAAAACAAAAAAAQZgAAAAEAACAAAAD7TjMbmc76ilcdYL2zm+hfhcv5yiOE9ww29bZ21F/TRwAAAAAOgAAAAAIAACAAAACGVcPEx0xxXeqJbMho7bpaW11vuh1b2LfEiOkkn67QzIAAAABUKHR66VWdAkxBY/9cNy/4+xF8Z2J5fie6JOwMMuk/UwaffyVopGQ6YOKGFJxB5PBCJ86TGAA7jvpePiQ/fbm5888zWNV815XeVEsR6mbOVCy6ZJMQt7dorcqhX6j0ob4cvDggf2rgSjVO+EgJsYrqf6TCleCRy0MMTFOM/ggb/EAAAACl1SKSnD+orq57CWp79A/LvSUs0l51KAY31LFEH9id8OmViWhfF2bPI4TaZ2OJAsMs+BjlcYKB3NySCcG9BPxk</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,180 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>PAS-DWEvaluacionDocente</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>IrG5XAbGDTpFCz63bg+91YI5aG4=11/09/2018 9:30:45 p. m.12/07/2018 6:31:04 p. m.</TimeStamp>
+        <ID>
+          <String>DW Academico Labor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>lAOwl01OrAYIGKyeTM3kiWrQTpc=17/07/2018 6:35:18 p. m.2/06/2018 6:00:51 p. m.</TimeStamp>
+        <ID>
+          <String>DW Academico Labor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tvGazOrpL9scwrtcZnnBGRGZkA8=11/09/2018 9:30:46 p. m.3/06/2018 6:51:47 p. m.</TimeStamp>
+        <ID>
+          <String>RANGO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>B5C7b3bypTvB9uuI4uqjhC4QYBQ=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>FUENTE EVALUACION</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K1JkqkPQGu9cj22NkjHvn586LUI=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>PREGUNTA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1Vs6+joJgPq+4LXEY1hYR56q8tg=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>TIPO CONTRATACION</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Sg1Zjfx99j4oyGFxyrHnfZzHoTs=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>DEMOGRAFIA DATOS ECONOMICOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gdg6241NDTyP+oRLPm4HW4tP9vk=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>SEMESTRE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZYSM/vR3bvk0Bo401bfgddAMma0=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>PROGRAMA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NYTuXir+Y/lh0raP9lQm4PHnjEM=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>LOCALIZACION</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5Hp1wYumNXA8kxbJG6zVeTGW440=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>DATOS AD MATERIA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kcWjxhHS7iwpKBpICXNRuR5xL3A=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>DOCENTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>S9IpaIFlZ9ItWAD7GAu9T/huOc4=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>PERIODO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PtHW1dfEacNYfFswAWsnOXLgsHQ=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>CUESTIONARIO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L79yu0EPUoH5XnnpAGmlixjX6tA=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>DATOS DEMOGRAFICOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jjYOnLrE/09MwYmIr/0C4rWYkD8=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>PENSUM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hlb4xAiZnyJ+Kinbz5W/nuiAvs0=11/09/2018 9:30:46 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>MATERIA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Q0qbmA2KYyxcEpA3xK1hUuYwPM8=11/09/2018 9:30:45 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>ESTUDIANTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zUgUEenbq1ncpqwvY8Lr/o2LUoA=11/09/2018 9:30:45 p. m.10/07/2018 3:32:16 p. m.</TimeStamp>
+        <ID>
+          <String>INDICADORES ESTUDIANTES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>AFwlrdP82n6BfZoukdPULPnOUX0=11/09/2018 9:30:45 p. m.12/07/2018 6:41:23 p. m.3UDqaR8aUq8rbA2iWvs3BA2NWRw=2/09/2018 6:47:31 p. m.2/06/2018 6:05:39 p. m.</TimeStamp>
+        <ID>
+          <String>Cubo_Evaluacion_Docente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>YDAoql+gnRAo1Clu9EMksqRNaqk=11/09/2018 9:30:56 p. m.11/09/2018 9:19:30 p. m.</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>2kHbw7etcvKuom7QVm5ladAtnaE=11/09/2018 9:30:45 p. m.2/06/2018 4:15:14 p. m.</TimeStamp>
+      <ID>
+        <String>PAS-DWEvaluacionDocente</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-09-12T02:36:49.706667Z</LastDeployed>
+</DeploymentSnapshot>
